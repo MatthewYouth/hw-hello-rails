@@ -1,0 +1,15 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+body { margin: 0; font: 16px/1.6 system-ui, sans-serif; color: #20242b; background: #f8f9fb; }
+header { background: #263c30; padding: 16px 24px; }
+header a { color: white; font-size: 22px; font-weight: 700; text-decoration: none; }
+main { max-width: 850px; margin: 32px auto; padding: 0 24px; }
+a { color: #185a36; }
+h1 { line-height: 1.2; }
+#movies > div { border-bottom: 1px solid #ddd; padding: 16px 0; }
+label { display: block; margin-top: 16px; font-weight: 600; }
+input[type=text], textarea, select { padding: 8px; font: inherit; border: 1px solid #aeb7b0; border-radius: 4px; max-width: 100%; }
+textarea { width: 100%; min-height: 100px; box-sizing: border-box; }
+input[type=submit], button { margin-top: 16px; padding: 8px 16px; font: inherit; cursor: pointer; }
