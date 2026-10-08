@@ -43,7 +43,7 @@ Do not commit `config/master.key`, local databases, or `.bundle/config`.
 2. Create a Ruby Web Service connected to the team repository and the branch
    that contains the completed application.
 3. Build command: `./bin/render-build.sh`
-4. Start command: `bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-production}`
+4. Start command: `ruby -S bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-production}`
 5. Set `RAILS_ENV=production`, `RACK_ENV=production`,
    `BUNDLE_WITHOUT=development:test`, `DATABASE_URL` to the database connection
    string, and `RAILS_MASTER_KEY` to the contents of `config/master.key`.
